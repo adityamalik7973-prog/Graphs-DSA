@@ -21,6 +21,7 @@ public:
             cout<<endl;
         }
     }
+    
 };
 int main(){
     Graph g(4);
