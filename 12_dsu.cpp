@@ -13,7 +13,7 @@ public:
     }
     int find(int x){
         if(par[x]==x)return x;
-        return find(par[x]);
+        return par[x]=find(par[x]);
     }
     void DisjointSetUnite(int a,int b){
         int parA=find(a);
